@@ -1,4 +1,4 @@
-## メモ
+## learn-cdktf-docker
 ### CDKTFとは
 - Cloud Development Kit for Terraform (CDKTF)は、C#、Python、TypeScript、Java、GoのコードからJSONのTerraform設定を生成
     - JSONを使ってTerraformを実行しインフラ構築
@@ -23,9 +23,8 @@ npm install --global cdktf-cli@latest
 ```bash
 cdktf init --template=typescript --providers=kreuzwerker/docker --local
 ```
-
-> **Note** <!-- Note / Warning -->
-> チュートリアル通りだとDocker daemonに接続できないというエラーが出る
+> [!NOTE]
+> チュートリアル通りだとDocker daemonに接続できないエラーが出る
 > ```bash
 > Error: Error pinging Docker server: Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
 > ```
