@@ -19,7 +19,7 @@ npm install --global cdktf-cli@latest
 ```
 
 #### プロジェクトの作成
-- `--local`をつけるとTerraform Cloudは使わずローカル（Docker）で実行することになる
+- `--local`をつけるとTerraform Cloudは使わずローカルで実行することになる
 ```bash
 cdktf init --template=typescript --providers=kreuzwerker/docker --local
 ```
